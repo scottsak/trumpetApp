@@ -1,7 +1,36 @@
 body{
-  background-color: red;
+  background-color: #5F9EA0;
+  text-align: center;
+}
+
+#title{
+  padding-top: 60px;
+}
+
+#trumpet{
+  padding: 100px 0px;
+}
+
+.btn-div{
+  padding: 0px 10px;
+  float: left;
+}
+
+.page{
+  text-align: center;
+}
+
+.notes{
+  padding: 15px 30px;
+}
+
+.btn-title{
+  position: relative;
 }
 
 .buttons{
-  display: flex;
+  margin: auto;
+  /* text-align: center; */
+  width: 100%;
+  /* display: flex; */
 }

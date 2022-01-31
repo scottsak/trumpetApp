@@ -33,12 +33,12 @@ for(var i = 0; i<document.querySelectorAll(".notes").length;i++){
         dLow.play();
         break;
       case "3":
-        var fLow = new Audio("sounds/fLow.m4a");
-        fLow.play();
+        var eLow = new Audio("sounds/eLow.m4a");
+        eLow.play();
         break;
       case "4":
-        var gLow = new Audio("sounds/gLow.m4a");
-        gLow.play();
+        var fLow = new Audio("sounds/fLow.m4a");
+        fLow.play();
         break;
       case "5":
         var gLow = new Audio("sounds/gLow.m4a");

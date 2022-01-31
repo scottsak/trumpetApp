@@ -22,6 +22,7 @@ for(var i = 0; i<document.querySelectorAll(".notes").length;i++){
 
 
   function makeSound(key){
+    // stop();
     switch (key) {
       case "1":
         var cLow = new Audio("sounds/cLow.m4a");
@@ -67,6 +68,14 @@ for(var i = 0; i<document.querySelectorAll(".notes").length;i++){
         break;
       }
   }
+
+  function stop(){
+  console.log("worked");
+  cLow.pause();
+  dLow.pause();
+  cLow.currentTime()=0;
+  dLow.currentTime()=0;
+}
 
   function buttonAnimation(eventkey){
     var activeButton = document.querySelector("." + eventkey);

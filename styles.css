@@ -8,20 +8,28 @@ body{
 }
 
 #trumpet{
-  padding: 100px 0px;
+  padding: 80px 0px;
+}
+
+.top{
+  /* float: left; */
+  /* position: relative; */
+}
+
+.bottom{
+  /* float: left; */
+  /* position: relative; */
 }
 
 .btn-div{
-  padding: 0px 10px;
-  float: left;
-}
-
-.page{
-  text-align: center;
+  /* padding: 0px 10px; */
+  /* float: left; */
 }
 
 .notes{
-  padding: 15px 30px;
+  /* padding: 15px 30px; */
+  width: 100%;
+  height: 50px;
 }
 
 .btn-title{
@@ -29,8 +37,9 @@ body{
 }
 
 .buttons{
-  margin: auto;
-  /* text-align: center; */
-  width: 100%;
-  /* display: flex; */
+  /* width: 100%;
+  height: 20px; */
+  display: flex;
+  background-color: red;
+  /* padding: 10px; */
 }

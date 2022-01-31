@@ -1,6 +1,7 @@
 body{
   background-color: #5F9EA0;
   text-align: center;
+  font-family: 'Murecho', sans-serif;
 }
 
 #title{
@@ -13,18 +14,15 @@ body{
 
 
 .btn-div{
-  /* padding: 0px 10px; */
-  /* float: left; */
   flex: 1;
 }
 
 .notes{
   width: 80%;
-  height: 50px;
-}
-
-.btn-title{
-  /* position: relative; */
+  height: 90px;
+  font-family: 'Murecho', sans-serif;
+  font-size: 40px;
+  border-radius: 12px;
 }
 
 .buttons{

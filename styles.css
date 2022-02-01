@@ -17,6 +17,11 @@ body{
   flex: 1;
 }
 
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
 .notes{
   width: 80%;
   height: 90px;

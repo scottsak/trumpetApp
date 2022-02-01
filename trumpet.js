@@ -28,7 +28,6 @@ for(var i = 0; i<document.querySelectorAll(".notes").length;i++){
 
 
   function makeSound(key){
-
     switch (key) {
       case "1":
         audio = new Audio("sounds/cLow.m4a");

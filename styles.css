@@ -1,11 +1,12 @@
 body{
-  background-color: #5F9EA0;
+  background-color: #283149;
   text-align: center;
   font-family: 'Murecho', sans-serif;
 }
 
 #title{
   padding-top: 60px;
+  color: white;
 }
 
 #trumpet{
@@ -28,6 +29,7 @@ body{
   font-family: 'Murecho', sans-serif;
   font-size: 40px;
   border-radius: 12px;
+  background-color: azure;
 }
 
 .buttons{

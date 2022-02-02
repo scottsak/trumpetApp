@@ -32,58 +32,67 @@ for(var i = 0; i<document.querySelectorAll(".notes").length;i++){
       case "1":
         audio = new Audio("sounds/cLow.m4a");
         lastPlayed= audio;
-        // cLow.play();
+        audio.play();
         break;
       case "2":
         audio = new Audio("sounds/dLow.m4a");
         lastPlayed= audio;
+        audio.play();
         // dLow.play();
         break;
       case "3":
         audio = new Audio("sounds/eLow.m4a");
         lastPlayed= audio;
+        audio.play();
         // eLow.play();
         break;
       case "4":
         audio = new Audio("sounds/fLow.m4a");
         lastPlayed= audio;
+        audio.play();
         // fLow.play();
         break;
       case "5":
         audio = new Audio("sounds/gLow.m4a");
         lastPlayed= audio;
+        audio.play();
         // gLow.play();
         break;
       case "6":
         audio = new Audio("sounds/aHigh.m4a");
         lastPlayed= audio;
+        audio.play();
         // aHigh.play();
         break;
       case "7":
         audio = new Audio("sounds/bHigh.m4a");
         lastPlayed= audio;
+        audio.play();
         // bHigh.play();
         break;
       case "8":
         audio = new Audio("sounds/cHigh.m4a");
         lastPlayed= audio;
+        audio.play();
         // cHigh.play();
         break;
       case "9":
         audio = new Audio("sounds/dHigh.m4a");
         lastPlayed= audio;
+        audio.play();
         // dHigh.play();
         break;
       case "0":
         audio = new Audio("sounds/eHigh.m4a");
         lastPlayed= audio;
+        audio.play();
         // eHigh.play();
         break;
       default:
         break;
       }
-      audio.currentTime = 0;
-      audio.play();
+      // audio.currentTime = 0;
+      // audio.play();
   }
 
   function stop(audio){
